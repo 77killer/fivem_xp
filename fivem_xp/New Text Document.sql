@@ -1,0 +1,5 @@
+CREATE TABLE player_xp (
+    citizenid VARCHAR(50) NOT NULL PRIMARY KEY,
+    xp INT NOT NULL DEFAULT 0,
+    level INT NOT NULL DEFAULT 1
+);
